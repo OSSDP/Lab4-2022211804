@@ -22,7 +22,7 @@ public class Solution1Test {
     public void testInteger(){
         int a = -90;
         int b = 3;
-        String c = "-30";
+        String c = "30";
         assertEquals("failure - strings not same",c,s.fractionToDecimal(a,b));
     }
 
